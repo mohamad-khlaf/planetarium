@@ -205,7 +205,13 @@ a {
 */
 .story-section {
     position: relative;
-    background: white;
+    background-image: url("../img/rocket.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .story-section .story-section__the-story {
     text-align: center;
@@ -219,47 +225,24 @@ a {
     border-radius: 15px;
     margin-top: 120px;
     margin-bottom: 120px;
+    color: white;
 }
 .story-section .story-section__the-story p {
     margin-bottom: 15px;
-}
-.story-section .story-section__floting-img {
-    width: 120px;
-    height: 120px;
-    position: absolute;
-    top: 0;
-    left: 15px;
-    border-radius: 124px 122px 64px 145px;
-    border: 2px solid var(--primary-color);
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: white;
-    z-index: 1;
 }
 @media (min-width: 768px) {
 .story-section .story-section__the-story {
         font-size: 16px;
     }
 }
-@media (max-width: 576px) {
-    .story-section .story-section__floting-img {
-        line-height: 1.6;
-        font-size: 16px;
-    }
-}
-.story-section .story-section__floting-img:nth-child(2) {
-    left: auto;
-    right: 15px;
-    top: 450px;
-}
-@media (max-width: 576px) {
-    .story-section .story-section__floting-img:nth-child(2) {
-        top: 487px;
-    }
-}
-
+/* ================================================================== */
+/* ================================================================== */
+/* ================================================================== */
+/* ================================================================== */
+/* ================================================================== */
+/* ================================================================== */
+/* ================================================================== */
+/* ================================================================== */
 /* Start product-section */
 /* .product-section img {
     width: 200px;
