@@ -1,20 +1,40 @@
-var swiper = new Swiper(".swiper", {
-    effect: "coverflow",
-    grabCursor: true,
-    centeredSlides: true,
-    slidesPerView: "auto",
-    coverflowEffect: {
-      rotate: 0,
-      stretch: 0,
-      depth: 100,
-      modifier: 2,
-      slideShadows: true
-    },
-    spaceBetween: 60,
-    loop: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true
-    }
-  });
+
+
+  // ===========================================
+
+  window.onload = function() {
+    let myElement = document.body;
+    console.log(myElement)
+    let mySparticles = new Sparticles(myElement, {
+
+      "composition":"source-over",
+      "count":20,
+      "speed":5,
+      "parallax":1,
+      "direction":180,
+      "xVariance":2,
+      "yVariance":2,
+      "rotate":true,
+      "rotation":1,
+      "alphaSpeed":10,
+      "alphaVariance":1,
+      "minAlpha":0,
+      "maxAlpha":1,
+      "minSize":1,
+      "maxSize":10,
+      "style":"fill",
+      "bounce":false,
+      "drift":1,
+      "glow":0,
+      "twinkle":false,
+      "color":["random"],
+      "shape":"circle",
+      "imageUrl":""
+    
+    
+      }, 400);
+  }
+
+
+  //==================================================
   
