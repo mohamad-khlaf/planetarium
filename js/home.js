@@ -8,7 +8,7 @@
     let mySparticles = new Sparticles(myElement, {
 
       "composition":"source-over",
-      "count":20,
+      "count":30,
       "speed":5,
       "parallax":1,
       "direction":180,
